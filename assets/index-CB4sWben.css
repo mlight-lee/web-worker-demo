@@ -1,0 +1,1 @@
+body{font-family:sans-serif;padding:20px}button{padding:10px 16px;font-size:16px;margin-bottom:20px}#result{margin-top:20px;font-size:18px}.spinner{border:6px solid #f3f3f3;border-top:6px solid #3498db;border-radius:50%;width:40px;height:40px;animation:spin 1s linear infinite;margin-top:20px}.hidden{display:none}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}

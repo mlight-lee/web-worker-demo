@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Worker Heavy Computation Example</title>
+    <script type="module" crossorigin src="/assets/index-Bg8lEP3a.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CB4sWben.css">
+  </head>
+  <body>
+    <h1>Heavy Computation with Web Worker</h1>
+    <p>
+      This demo uses a <strong>Web Worker</strong> to perform a CPU-intensive task
+      without blocking the main page.  
+      Enter two numbers below and click <em>Start Computation</em>.  
+      While the worker is busy, a spinner will show until the result is ready.
+    </p>
+
+    <div>
+      <label>
+        Number A:
+        <input id="inputA" type="number" value="10000" />
+      </label>
+      <label>
+        Number B:
+        <input id="inputB" type="number" value="20000" />
+      </label>
+    </div>
+
+    </p>
+    <button id="computeBtn">Start Computation</button>
+    <div id="spinner" class="spinner hidden"></div>
+    <div id="result"></div>
+
+  </body>
+</html>
